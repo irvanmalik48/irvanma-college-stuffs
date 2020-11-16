@@ -91,5 +91,8 @@ public class Game1 {
                 }
             }
         }
+        System.out.printf("\nJumlah benar : %d", benar);
+        System.out.printf("\nJumlah salah : %d", salah);
+        System.out.printf("\nNilai : %.2f", (float) ((benar / 50) * 100));
     }
 }
